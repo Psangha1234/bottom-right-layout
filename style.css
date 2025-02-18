@@ -39,3 +39,10 @@
     grid-row: 4/5;
     background-color: brown;
 }
+
+.child {
+    flex: 40%;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}

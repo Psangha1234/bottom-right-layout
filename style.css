@@ -1,6 +1,12 @@
 .container {
+<<<<<<< HEAD
     grid-template-columns: 2fr 7fr 2fr 1fr;
     grid-template-rows: 1fr ;
+=======
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr 7fr 2fr ;
+>>>>>>> 8cf355023014e8437907dad47b6b9c0c03ecb8b7
 }
 
 .logonavigation {
@@ -10,8 +16,8 @@
 }
 
 .gridbox {
-    grid-column: 2/3;
-    grid-row: 1/4;
+    grid-column: 1/4;
+    grid-row: 2/4;
     background-color: gray;
 }
 
@@ -37,4 +43,17 @@
     grid-column: 1/4;
     grid-row: 4/5;
     background-color: brown;
+}
+
+.child {
+    flex: 20%;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    border: 1px solid black;
+}
+
+.flexcontainer {
+    display: flex;
+    flex-wrap: wrap; 
 }
